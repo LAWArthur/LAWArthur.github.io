@@ -16,13 +16,15 @@ table {
 td {
     width: 49%;
     margin: 0px 0.5% 0px 0.5%;
-    vertical-align: top;
+    text-align: center;
+    height: 60px;
 }
 
 td:hover {
     width: 49%;
     margin: 0px 0.5% 0px 0.5%;
-    vertical-align: top;
+    text-align: center;
+    height: 60px;
     cursor: pointer;
 }
 
@@ -32,6 +34,21 @@ h1,h2,h3,h4,h5,h6 {
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
+}
+
+
+
+.win {
+    background: #3f3fff;
+    font-size: 20px;
+}
+
+.github {
+    background: #b8b800;
+}
+
+.option {
+    border-radius: 5px;
 }
 
 .copyright {
