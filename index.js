@@ -8,4 +8,7 @@ const accessCode = Math.floor(Math.random() * 1000000);
     $("#alotools").click(()=>{
         window.location.href = "alotools/alotools.html";
     });
+    $("#study").click(()=>{
+        window.location.href = "study/study.html";
+    });
 }))()
