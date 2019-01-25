@@ -1,0 +1,56 @@
+.content {
+    width: 95%;
+    margin: 0% 2.5% 0% 2.5%;
+}
+
+.header {
+    margin: 0px 0px 0px 0px;
+    font-family: "Segoe Script";
+}
+
+table {
+    width: 30%;
+    table-layout: fixed;
+    text-align: center;
+    margin: auto;
+}
+
+td {
+    width: 100%;
+    margin: 0px 0.5% 0px 0.5%;
+    padding: 10px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 10px;
+    padding: 0px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: right;
+    font-size: 10px;
+    color: darkslategrey;
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+    font-size: 36px;
+    font-family: "宋体", "Segoe UI";
+}
+
+.option {
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.start {
+    background: #00ccff;
+}
+
+.manual {
+	font-size: 18px;
+}
