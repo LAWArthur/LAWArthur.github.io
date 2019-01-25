@@ -11,4 +11,8 @@ const accessCode = Math.floor(Math.random() * 1000000);
     $("#study").click(()=>{
         window.location.href = "study/study.html";
     });
+
+    $("#memory").click(()=>{
+        window.location.href = "memory/memory.html";
+    });
 }))()
