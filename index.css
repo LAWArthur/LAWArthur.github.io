@@ -42,5 +42,5 @@ h1,h2,h3,h4,h5,h6 {
 
 .display {
     border-radius: 5px;
-    filter: drop-shadow(2px 2px 2px darkslategrey);
+    filter: drop-shadow(2px 2px 2px grey);
 }
