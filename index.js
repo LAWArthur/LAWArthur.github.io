@@ -22,10 +22,14 @@ const accessCode = Math.floor(Math.random() * 1000000);
         for(let i of sel){
             if(isOnScreen(i)){
                 //Show
-                i.style.animation = "showanim 3s ease-in 0s 1 normal";
+                if(!i.hasClass("show")){
+                    i.removeClass("hide").addClass("show");
+                }
             }else{
                 //hide
-                i.style.animation = "hideanim 3s ease-in 0s 1 normal";
+                if(!i.hasClass("hide")){
+                    i.removeClass("show").addClass("hide");
+                }
             }
         }
     });
