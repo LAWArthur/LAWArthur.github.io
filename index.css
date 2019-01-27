@@ -63,6 +63,8 @@ h1,h2,h3,h4,h5,h6 {
     }
 }
 
+/*
+ * I dont know why this doesnt work, so leave it alone
 .show {
     animation: showanim 3s ease-in 0s 1 normal;
     -webkit-animation: showanim 3s ease-in 0s 1 normal;
@@ -72,3 +74,4 @@ h1,h2,h3,h4,h5,h6 {
     animation: hideanim 3s ease-in 0s 1 normal;
     -webkit-animation: hideanim 3s ease-in 0s 1 normal;
 }
+*/
