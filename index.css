@@ -62,3 +62,10 @@ h1,h2,h3,h4,h5,h6 {
         opacity: 0%;
     }
 }
+
+.show {
+    animation: showanim 3s ease-in 0s 0 normal;
+}
+
+.hide {
+    animation: hideanim 3s ease-in 0s 0 normal;
