@@ -1,6 +1,6 @@
 const accessCode = Math.floor(Math.random() * 1000000);
 ($(()=>{
-    let sel = $("
+    let sel = $(".option");
     
     // ^_^
     $("#penwar").click(()=>{
@@ -19,7 +19,13 @@ const accessCode = Math.floor(Math.random() * 1000000);
     });
     
     setInterval(()=>{
-        
+        for(let i of sel){
+            if(isOnScreen(i)){
+                //Show
+            }else{
+                //hide
+            }
+        }
     });
 }))();
 
