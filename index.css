@@ -65,8 +65,10 @@ h1,h2,h3,h4,h5,h6 {
 
 .show {
     animation: showanim 3s ease-in 0s 1 normal;
+    -webkit-animation: showanim 3s ease-in 0s 1 normal;
 }
 
 .hide {
     animation: hideanim 3s ease-in 0s 1 normal;
+    -webkit-animation: hideanim 3s ease-in 0s 1 normal;
 }
