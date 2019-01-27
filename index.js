@@ -32,10 +32,10 @@ const accessCode = Math.floor(Math.random() * 1000000);
 }))();
 
 // var ON_SCREEN_HEIGHT = 0;
-const ON_SCREEN_HEIGHT = 50;
+const ON_SCREEN_HEIGHT = Infinity;
 // var ON_SCREEN_HEIGHT = Infinity;
 // var ON_SCREEN_WIDTH = 0;
-const ON_SCREEN_WIDTH = 50;
+const ON_SCREEN_WIDTH = Infinity;
 // var ON_SCREEN_WIDTH = Infinity;
 
 function isOnScreen(element) {
