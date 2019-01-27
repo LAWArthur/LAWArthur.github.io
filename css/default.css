@@ -28,7 +28,7 @@ td:hover {
     cursor: pointer;
 }
 
-td:cover {
+td:active {
     width: 49%;
     margin: 0px 0.5% 0px 0.5%;
     text-align: center;
