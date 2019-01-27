@@ -31,6 +31,7 @@ td:active {
     margin: 0px 0.5% 0px 0.5%;
     vertical-align: top;
     cursor: pointer;
+    background: #cccccc;
 }
 
 h1,h2,h3,h4,h5,h6 {
