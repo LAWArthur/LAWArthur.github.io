@@ -85,7 +85,7 @@ h1,h2,h3,h4,h5,h6 {
 */
 
 .navigator {
-    float: left;
+    float: right;
     list-style: none;
     height: 100%;
 }
@@ -94,5 +94,5 @@ h1,h2,h3,h4,h5,h6 {
     border: 1px solid #000000;
     width: 100px;
     height: 100%;
-    float: left;
+    float: right;
 }
