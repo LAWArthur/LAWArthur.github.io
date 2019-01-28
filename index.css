@@ -85,9 +85,10 @@ h1,h2,h3,h4,h5,h6 {
 */
 
 .navigator {
-    float: right;
+    display: inline;
     list-style: none;
     height: 100%;
+    padding: 0px;
 }
 
 .navigator li {
