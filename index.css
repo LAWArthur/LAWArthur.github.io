@@ -83,3 +83,14 @@ h1,h2,h3,h4,h5,h6 {
     -webkit-animation: hideanim 3s ease-in 0s 1 normal;
 }
 */
+
+.navigator {
+   list-style：none;
+    height: 100%;
+}
+
+.navigator > li {
+    width: 100px;
+    height: 100%;
+    float: left;
+}
