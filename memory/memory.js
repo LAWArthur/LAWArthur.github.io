@@ -17,24 +17,29 @@ function GenRandom(length){
 function PutWrong(){
 	let timeout;
 	field.unbind("click");
-	if(Math.floor(Math.random()*50)===0){
+	if(Math.floor(Math.random()*25)===0){
 		field.text(ranstring);
 		field.click(()=>{
 			alert("恭喜！找到了正确的字符串！");
 			clearTimeout(timeout);
-			field.unbind("click");
+			StartResp();
 		});
 		timeout = setTimeout(()=>{
 			alert("错过了正确的字符串！");
-			field.unbind("click");
+			StartResp();
 		},1000);
 	} else {
-		let wrongstring = GenRandom(6);
+		let wrongstring = "";
+		const ind = Math.floor(Math.random()*6);
+		for(let i=0;i<6;i++){
+			if(i===ind)wrongstring+=alphabet[Math.floor(Math.random()*alphabet.length)];
+			else wrongstring+=ranstring[i];
+		}
 		field.text(wrongstring);
 		field.click(()=>{
 			alert("点击了错误的字符串！");
 			clearTimeout(timeout);
-			field.unbind("click");
+			StartResp();
 		});
 		timeout = setTimeout(PutWrong,1000);
 	}
