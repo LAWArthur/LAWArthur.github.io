@@ -53,37 +53,6 @@ h1,h2,h3,h4,h5,h6 {
     filter: drop-shadow(2px 2px 2px grey);
 }
 
-@keyframes showanim {
-    from {
-        opacity: 0%;
-    }
-    to {
-        opacity: 100%;
-    }
-}
-
-@keyframes hideanim {
-    from {
-        opacity: 100%;
-    }
-    to {
-        opacity: 0%;
-    }
-}
-
-/*
- * I dont know why this doesnt work, so leave it alone
-.show {
-    animation: showanim 3s ease-in 0s 1 normal;
-    -webkit-animation: showanim 3s ease-in 0s 1 normal;
-}
-
-.hide {
-    animation: hideanim 3s ease-in 0s 1 normal;
-    -webkit-animation: hideanim 3s ease-in 0s 1 normal;
-}
-*/
-
 .navigator {
     display: inline-block;
     list-style: none;
