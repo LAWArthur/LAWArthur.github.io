@@ -1,0 +1,170 @@
+body {
+    background: #ffddcc;
+}
+
+.content {
+    width: 95%;
+    margin: 0% 2.5% 0% 2.5%;
+    text-align: center;
+}
+
+.header {
+    margin: 0px 0px 0px 0px;
+    font-family: "Segoe Script";
+}
+
+table {
+    width: 30%;
+    table-layout: fixed;
+    text-align: center;
+    margin: auto;
+}
+
+td {
+    width: 100%;
+    margin: 0px 0.5% 0px 0.5%;
+    padding: 10px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 10px;
+    padding: 0px;
+    color: black;
+    font-family: '华文行楷', '华文仿宋', 'Segoe Script', 'Arial';
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: right;
+    font-size: 10px;
+    color: darkslategrey;
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+    font-size: 36px;
+    font-family: '华文行楷', '华文仿宋', 'Segoe Script', 'Arial';
+}
+
+.option {
+    border-radius: 5px;
+    font-size: 28px;
+    color: #eeeeee;
+    font-family: '华文行楷', '华文仿宋', 'Segoe Script', 'Arial';
+}
+
+.option:hover {
+    border-radius: 5px;
+    font-size: 28px;
+    color: #eeeeee;
+    font-family: '华文行楷', '华文仿宋', 'Segoe Script', 'Arial';
+    cursor: pointer;
+}
+
+.start {
+    width: 100%;
+    margin: 0px 0.5% 0px 0.5%;
+    padding: 10px;
+    background-image: url("../images/ButtonBackground.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: '华文行楷', '华文仿宋', 'Segoe Script', 'Arial';
+}
+
+.manual {
+	font-size: 18px;
+}
+
+@keyframes inkSpread {
+    from {
+        opacity: 0.1;
+        width: 100px;
+        height: 30px;
+    }
+    60% {
+        opacity: 1;
+        width: 200%;
+        height: 200%;
+    }
+
+    100% {
+        opacity: 1;
+        width: 200%;
+        height: 200%; 
+    }
+}
+
+@keyframes inkFade {
+    0% {
+        opacity: 1;
+        width: 200%;
+        height: 200%; 
+    }
+
+    100% {
+        opacity: 0;
+        width: 200%;
+        height: 200%; 
+        display: none;
+    }
+}
+
+.cover-hide {
+    display: none;
+}
+
+.cover-spread {
+    display: block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    animation: inkSpread 1s ease-out 0s 1 normal forwards;
+}
+
+.cover-fade {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    animation: inkFade 1s ease-out 0s 1 normal forwards;
+}
+
+.ink {
+    width: 100%;
+    height: 100%;
+}
+
+.loading {
+    position: absolute;
+    color: white;
+    font-family: '华文行楷', '华文仿宋', 'Segoe Script', 'Arial';
+    font-size: 22px;
+}
+
+#game {
+    display: none;
+}
+
+#checking {
+    display: none;
+}
+
+#info {
+    font-family: '华文行楷', '华文仿宋', 'Segoe Script', 'Arial';
+}
+
+#time {
+    font-family: '华文行楷', '华文仿宋', 'Segoe Script', 'Arial';
+}
+
+.mark {
+    display: none;
+}
+
+#kw {
+    font-family: '华文行楷', '华文仿宋', 'Segoe Script', 'Arial';
+    font-size: 28px;
+}

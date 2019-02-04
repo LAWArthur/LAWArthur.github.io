@@ -17,4 +17,7 @@ const accessCode = Math.floor(Math.random() * 1000000);
     $("#memory").click(()=>{
         window.location.href = "memory/memory.html";
     });
+    $("#feihualing").click(()=>{
+        window.location.href = "feihualing/feihualing.html";
+    });
 }))();

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" href="../images/favicon.ico" />
+		<title>LAWArthur: 飞花令</title>
+		<link rel="stylesheet" href="feihualing.css" type="text/css" />
+	</head>
+	<body>
+		<div class="content">
+			<div class="cover cover-hide">
+				<img class="ink" src="../images/ButtonBackground.png" />
+			</div>
+			<div class="title">飞花令</div>
+			<br /><br />
+			<div class="option start" id="start">开始游戏</div>
+			<div id="game">
+				<div id="kw"></div>
+				<div id="field"><input id="shiju" /><button id="subm">提交</button> <span id="time"></span><img class="mark" id="correct" src="../images/correct.png" width="16" height="16" /></div>
+				<div id="info"></div>
+			</div>
+			<div class="manual">
+				1. 需要输入标点（正则表达式有毒）<br />
+				2. 开始游戏后需要一段时间加载数据，请耐心等待~<br />
+				P.S.欢迎大家来找bug~
+			</div>
+			<br />
+			<div class="copyright">Data from https://github.com/chinese-poetry/chinese-poetry-zhCN &amp; https://github.com/chinese-poetry/chinese-poetry<br />For bug reports and good suggestions, go to https://github.com/LAWArthur/LAWArthur.github.io/issues<br />&copy;2019 LAWArthur</div>
+		</div>
+		<script src="../scripts/jquery-3.3.1.js"></script>
+		<script src="feihualing.js"></script>
+	</body>
+</html>
