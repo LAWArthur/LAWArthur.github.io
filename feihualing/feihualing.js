@@ -10,12 +10,14 @@ $(()=>{
 			
 			// 加载诗词JSON库
 			let JSONRead = [];
+			let progress = $("#progress");
 			JSONRead.push(new Promise((resolve, reject)=>{
 				$.getJSON(`./poetry/keyword.json`, (data)=>{
 					if(typeof data !== "undefined"){
 						keyword = data[Math.floor(Math.random() * data.length)];
 						$("#kw").text(keyword);
 						console.log(`./poetry/keyword.json loaded`);
+						progress.val(progress.val()+1);
 						resolve(`./poetry/keyword.json`);
 					} else {
 						reject(`./poetry/keyword.json not found`);
@@ -28,6 +30,7 @@ $(()=>{
 						if(typeof data !== "undefined"){
 							poemData = poemData.concat(data);
 							console.log(`./poetry/ci.song.${i}.json loaded`);
+							progress.val(progress.val()+1);
 							resolve(`./poetry/ci.song.${i}.json`);
 						} else {
 							reject(`./poetry/ci.song.${i}.json not found`);
@@ -42,6 +45,7 @@ $(()=>{
 						if(typeof data !== "undefined"){
 							poemData = poemData.concat(data);
 							console.log(`./poetry/poet.song.${i}.json loaded`);
+							progress.val(progress.val()+1);
 							resolve(`./poetry/poet.song.${i}.json`);
 						} else {
 							reject(`./poetry/poet.song.${i}.json not found`);
@@ -55,6 +59,7 @@ $(()=>{
 						if(typeof data !== "undefined"){
 							poemData = poemData.concat(data);
 							console.log(`./poetry/poet.tang.${i}.json loaded`);
+							progress.val(progress.val()+1);
 							resolve(`./poetry/poet.tang.${i}.json`);
 						} else {
 							reject(`./poetry/poet.tang.${i}.json`);
