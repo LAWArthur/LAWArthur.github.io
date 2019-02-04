@@ -11,11 +11,11 @@ $(()=>{
 			// 加载诗词JSON库
 			let JSONRead = [];
 			JSONRead.push(new Promise((resolve, reject)=>{
-				let t = setTimeout(()=>reject(`Time limit exceeded - Perhaps an error has occured. please look at the console for more information. `), 20000);
 				$.getJSON(`./poetry/keyword.json`, (data)=>{
 					if(typeof data !== "undefined"){
 						keyword = data[Math.floor(Math.random() * data.length)];
 						$("#kw").text(keyword);
+						console.log(`./poetry/keyword.json loaded`);
 						resolve(`./poetry/keyword.json`);
 					} else {
 						reject(`./poetry/keyword.json not found`);
@@ -24,10 +24,10 @@ $(()=>{
 			}));
 			for(let i = 0;i <= 21000;i += 1000){
 				JSONRead.push(new Promise((resolve, reject)=>{
-					let t = setTimeout(()=>reject(`Time limit exceeded - Perhaps an error has occured. please look at the console for more information. `), 20000);
 					$.getJSON(`./poetry/ci.song.${i}.json`, (data)=>{
 						if(typeof data !== "undefined"){
 							poemData = poemData.concat(data);
+							console.log(`./poetry/ci.song.${i}.json loaded`);
 							resolve(`./poetry/ci.song.${i}.json`);
 						} else {
 							reject(`./poetry/ci.song.${i}.json not found`);
@@ -38,10 +38,10 @@ $(()=>{
 
 			for(let i = 0;i <= 254000;i += 1000){
 				JSONRead.push(new Promise((resolve, reject)=>{
-					let t = setTimeout(()=>reject(`Time limit exceeded - Perhaps an error has occured. please look at the console for more information. `), 20000);
 					$.getJSON(`./poetry/poet.song.${i}.json`, (data)=>{
 						if(typeof data !== "undefined"){
 							poemData = poemData.concat(data);
+							console.log(`./poetry/poet.song.${i}.json loaded`);
 							resolve(`./poetry/poet.song.${i}.json`);
 						} else {
 							reject(`./poetry/poet.song.${i}.json not found`);
@@ -51,10 +51,10 @@ $(()=>{
 			}
 			for(let i = 0;i <= 57000;i += 1000){
 				JSONRead.push(new Promise((resolve, reject)=>{
-					let t = setTimeout(()=>reject(`Time limit exceeded - Perhaps an error has occured. please look at the console for more information. `), 20000);
 					$.getJSON(`./poetry/poet.tang.${i}.json`, (data)=>{
 						if(typeof data !== "undefined"){
 							poemData = poemData.concat(data);
+							console.log(`./poetry/poet.tang.${i}.json loaded`);
 							resolve(`./poetry/poet.tang.${i}.json`);
 						} else {
 							reject(`./poetry/poet.tang.${i}.json`);
