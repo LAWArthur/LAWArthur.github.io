@@ -38,7 +38,6 @@ $(()=>{
 					});
 				}));
 			}
-
 			for(let i = 0;i <= 254000;i += 1000){
 				JSONRead.push(new Promise((resolve, reject)=>{
 					$.getJSON(`./poetry/poet.song.${i}.json`, (data)=>{
@@ -67,6 +66,7 @@ $(()=>{
 					});
 				}));
 			}
+
 			Promise.all(JSONRead)
 				.then((me)=>{
 					console.log(poemData);
@@ -96,14 +96,20 @@ $(()=>{
 						$("#subm").click(()=>{
 							let val = "";
 							val = $("#shiju").val();
+							
 							if(!val.includes(keyword)){
 								clearInterval(timer);
 								reject("W");
 							}
+
+							let pattern = /[\u3002|\uff1f|\uff01|\uff0c|\u3001|\uff1b|\uff1a|\u201c|\u201d|\u2018|\u2019|\uff08|\uff09|\u300a|\u300b|\u3008|\u3009|\u3010|\u3011|\u300e|\u300f|\u300c|\u300d|\ufe43|\ufe44|\u3014|\u3015|\u2026|\u2014|\uff5e|\ufe4f|\uffe5]/g;
+							val = val.replace(pattern, ".*");
 							console.log(val);
+							pattern = new RegExp(val);
+							
 							for(let poem of poemData){
 								for(let para of poem["paragraphs"]){
-									if(para === val){
+									if(pattern.test(para)){
 
 										// 重置计时器
 										clearInterval(timer);
@@ -139,6 +145,7 @@ $(()=>{
 							break;
 							case "T":
 							$("#time").css("color", "#cc0000");
+							break;
 						}
 
 						setTimeout(()=>$(".cover").removeClass("cover-fade").addClass("cover-spread"), 3000);
