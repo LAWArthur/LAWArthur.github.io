@@ -1,12 +1,19 @@
 {
     "resource":[
         {
-            "src": "A Peace of War.ogg",
-            "name": "世外静谧 A Peace of War"
+            "src": "A Peace of War",
+            "name": "世外静谧 A Peace of War",
+            "additional": "LAWArthur <i>Pen War游戏主题曲</i>"
         },
         {
-            "src": "将倾之都.ogg",
-            "name": "将倾之都 The Being-ruined City"
+            "src": "将倾之都",
+            "name": "将倾之都 The Being-ruined City",
+            "additional": "LAWArthur <i>Pen War游戏背景音乐</i>"
+        },
+        {
+            "src": "NWTG",
+            "name": "无路可逃 No Where to Go",
+            "additional": "OX"
         }
     ]
 }

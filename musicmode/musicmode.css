@@ -1,11 +1,11 @@
 ul, li {
     list-style: none outside;
     font-size: 24px;
-    font-family: "华文行楷", "STXingKai", "Segoe Script", "Arial";
+    font-family: "华文仿宋", "STFangSong", "Segoe UI", "Arial";
     cursor: pointer;
 }
 
 span {
     font-size: 18px;
-    font-family: "华文行楷", "STXingKai", "Segoe Script", "Arial";
+    font-family: "华文仿宋", "STFangSong", "Segoe UI", "Arial";
 }

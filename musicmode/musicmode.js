@@ -1,3 +1,7 @@
+let suffix = "ogg";
+
+if(window.navigator.userAgent.indexOf("Safari") != -1) suffix = "mp3";
+ 
  let audio = document.getElementById("cur");
  
  let p = new Promise((resolve, reject) => {
@@ -18,8 +22,8 @@ p
             let node = $("<li></li>");
             node.text(i["name"]);
             node.click(() => {
-                audio.src = `data/${i["src"]}`;
-                $("#name").text(i["name"]);
+                audio.src = `data/${i["src"]}.${suffix}`;
+                $("#name").html(`${i["name"]} - ${i["additional"]}`);
             })
             $("#musics").append(node);
         }
