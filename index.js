@@ -23,4 +23,7 @@ const accessCode = Math.floor(Math.random() * 1000000);
     $("#mm").click(()=>{
         window.location.href = "musicmode/musicmode.html";
     });
+    $("#blog").click(()=>{
+        window.location.href = "blogs/blogs.html";
+    });
 }))();

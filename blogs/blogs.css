@@ -1,0 +1,52 @@
+.content {
+    width: 95%;
+    margin: 0% 2.5% 0% 2.5%;
+}
+
+.header {
+    margin: 0px 0px 0px 0px;
+    font-family: "Segoe Script";
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 10px;
+    padding: 0px;
+    color: black;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: right;
+    font-size: 10px;
+    color: darkslategrey;
+}
+
+table {
+    width: 95%;
+}
+
+#p {
+    font-family: "华文仿宋", STFangSong;
+    vertical-align: top;
+    text-align: left;
+    width: 80%;
+}
+
+#pre, #next {
+    vertical-align: middle;
+    text-align: center;
+    font-size: 64px;
+    width: 10%;
+}
+
+#pre:hover, #next:hover {
+    vertical-align: middle;
+    text-align: center;
+    font-size: 64px;
+    width: 10%;
+    cursor: pointer;
+}
+
+.available {
+    color: darkgreen;
+}
