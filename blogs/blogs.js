@@ -1,4 +1,4 @@
-let current = 0;
+let current = 1;
 
 function load(){
     if(current == -1){
