@@ -21,7 +21,7 @@
     $("#mm").click(()=>{
         window.location.href = "musicmode/musicmode.html";
     });
-    $("#blog").click(()=>{
-        window.location.href = "blogs/blogs.html";
+    $("#heartbeat").click(()=>{
+        window.location.href = "heartbeat/heartbeat.html";
     });
 }))();
