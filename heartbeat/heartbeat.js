@@ -5,4 +5,4 @@
     // $("#github").click(()=>{
     //     window.location.href = "https://github.com/LAWArthur/Heartbeat/";
     // });
-}))()
+}))();
