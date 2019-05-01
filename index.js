@@ -24,4 +24,7 @@
     $("#heartbeat").click(()=>{
         window.location.href = "heartbeat/heartbeat.html";
     });
+    $("#atomera").click(()=>{
+        window.location.href = "atomera/atomera.html";
+    });
 }))();

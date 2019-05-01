@@ -10,12 +10,3 @@
 .manual {
     color: rgb(49, 49, 49);
 }
-
-.imagecontainer * {
-    width: 98%;
-    margin: 1%;
-}
-
-.imagecontainer {
-    width: 100%;
-}
