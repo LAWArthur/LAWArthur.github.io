@@ -24,3 +24,9 @@
 
 - [x] Weapon trails
 - [ ] Attack effects
+
+#### Weapons
+
+- [x] Sword
+
+Calling for more weapon ideas at issues
