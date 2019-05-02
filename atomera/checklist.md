@@ -5,8 +5,9 @@
 #### Core
 
 - [x] Animation control
-- [ ] Weapon collision
+- [x] Weapon collision
 - [ ] Advanced movement
+- [ ] Attack message & special effect
 
 #### User Interface
 
@@ -16,8 +17,6 @@
 #### Playables
 
 - [ ] AI
-- [ ] Ability system
-- [ ] Store system
 - [ ] Instances
 
 #### Beautify
