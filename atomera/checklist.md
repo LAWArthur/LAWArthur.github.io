@@ -1,6 +1,8 @@
 ## Still under development
 
-v0.1.5 will be released soon. 
+v0.1.6a has been released!
+
+[Download here](https://github.com/LAWArthur/AtomEra/archive/v0.1.6a.zip)
 
 ### State 1: First version
 
@@ -8,10 +10,10 @@ v0.1.5 will be released soon.
 
 - [x] Animation control
 - [x] Weapon collision
+- [ ] Attack message & special effect
 - [x] Advanced movement
  - [x] WASD with speed modifiers
  - [ ] Defense & Sash
-- [ ] Attack message & special effect
 
 #### User Interface
 
@@ -33,3 +35,7 @@ v0.1.5 will be released soon.
 - [x] Sword
 
 Calling for more weapon ideas at issues
+
+[Visit github repository](https://github.com/LAWArthur/AtomEra/)
+
+[Find other versions](https://github.com/LAWArthur/AtomEra/releases/)
