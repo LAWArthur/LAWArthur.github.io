@@ -1,23 +1,27 @@
 ## Still under development
 
+v0.1.5 will be released soon. 
+
 ### State 1: First version
 
 #### Core
 
 - [x] Animation control
 - [x] Weapon collision
-- [ ] Advanced movement
+- [x] Advanced movement
+ - [x] WASD with speed modifiers
+ - [ ] Defense & Sash
 - [ ] Attack message & special effect
 
 #### User Interface
 
-- [ ] Index
+- [x] Index
 - [ ] World map
 
 #### Playables
 
 - [ ] AI
-- [ ] Instances
+- [x] Instances
 
 #### Beautify
 
