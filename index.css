@@ -1,5 +1,6 @@
 body {
-    background: #eeeeee;
+    background: url("images/background.png") fixed no-repeat;
+    background-size: cover;
 }
 
 .content {
