@@ -5,6 +5,7 @@
         <link rel="icon" href="images/favicon.ico" type="image/x-icon">  
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">  
         <link href="index.css" rel="stylesheet" type="text/css" />
+        <link href="assets/waifu.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <div class="content">
@@ -71,12 +72,45 @@
                         <img class="display" src="images/atomera.png" width="100%" />
                     </td>
                 </tr>
+                <tr>
+                    <td class="option" id="regret">
+                        <h2>憾事 Regret</h2>
+                        <h3>Under Beta Development</h3>
+                    </td>
+                </tr>
             </table>
             
             <div class="copyright">&copy;2019 LAWArthur</div>
+
+            <!--你说就算不改这个代码我就没办法消掉一些东西吗？太天真了，当js是摆设吗-->
+            <div class="counter"><a href='https://www.hit-counts.com/'><img
+                        src='http://www.hit-counts.com/counter.php?t=MTQ1MTA5Mg==' alt='logo designers'></a><BR /><a
+                    href='https://www.glowgraphics.co.uk/' class="designer">logo designers</a></div>
         </div>
-        
+        <div class="waifu">
+    
+            <!-- 提示框 -->
+            <div class="waifu-tips"></div>
+            
+            <!-- 看板娘画布 -->
+            <canvas id="live2d" class="live2d"></canvas>
+            
+            <!-- 工具栏 -->
+            <div class="waifu-tool">
+                <span class="fui-home"></span>
+                <span class="fui-chat"></span>
+                <span class="fui-eye"></span>
+                <span class="fui-user"></span>
+                <span class="fui-photo"></span>
+                <span class="fui-info-circle"></span>
+                <span class="fui-cross"></span>
+            </div>
+            
+        </div>
         <script src="scripts/jquery-3.3.1.js"></script>
         <script src="index.js"></script>
+        <script src="assets/waifu-tips.js"></script>
+        <script src="assets/live2d.js"></script>
+        <script src="scripts/boardchar.js"></script>
     </body>
 </html>
