@@ -17,16 +17,17 @@
             "default": ["嗨~ 这里是看板娘小落哦~"]
         },
         "referrer_message": {
-            "localhost": ["欢迎阅读<span style=\"color:#0099cc;\">『", "』</span>", " - "],
-            "baidu": ["Hello! 来自 百度搜索 的朋友<br>你是搜索 <span style=\"color:#0099cc;\">", "</span> 找到的我吗？"],
-            "so": ["Hello! 来自 360搜索 的朋友<br>你是搜索 <span style=\"color:#0099cc;\">", "</span> 找到的我吗？"],
-            "google": ["Hello! 来自 谷歌搜索 的朋友<br>欢迎阅读<span style=\"color:#0099cc;\">『", "』</span>", " - "],
-            "default": ["Hello! 来自 <span style=\"color:#0099cc;\">", "</span> 的朋友"],
-            "none": ["欢迎阅读<span style=\"color:#0099cc;\">『", "』</span>", " - "]
+            "localhost": ["欢迎阅读<span style=\"color:#0099cc;\">『", "』</span>，我是看板娘小落哦！", " - "],
+            "baidu": ["Hello! 来自 百度搜索 的朋友<br>你是搜索 <span style=\"color:#0099cc;\">", "</span> 找到的我吗？我是看板娘小落哦！"],
+            "so": ["Hello! 来自 360搜索 的朋友<br>你是搜索 <span style=\"color:#0099cc;\">", "</span> 找到的我吗？我是看板娘小落哦！"],
+            "google": ["Hello! 来自 谷歌搜索 的朋友<br>欢迎阅读<span style=\"color:#0099cc;\">『", "』</span>，我是看板娘小落哦！", " - "],
+            "default": ["Hello! 来自 <span style=\"color:#0099cc;\">", "</span> 的朋友，我是看板娘小落哦！"],
+            "none": ["欢迎阅读<span style=\"color:#0099cc;\">『", "』</span>，我是看板娘小落哦！", " - "]
         },
         "referrer_hostname": {
             "example.com": ["示例网站"],
-            "www.fghrsh.net": ["FGHRSH 的博客"]
+            "www.fghrsh.net": ["FGHRSH 的博客"],
+            "github.com": ["Github"]
         },
         "model_message": {
         },
