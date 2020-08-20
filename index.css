@@ -8,6 +8,15 @@ body {
     margin: 0% 2.5% 0% 2.5%;
 }
 
+.warning {
+    padding: 20px;
+    margin: -10px -10px 0px -10px;
+    width: 100%;
+    background: #ccffcc;
+    font-family: 'Microsoft YaHei';
+    position: fixed;
+}
+
 .header {
     margin: 0px 0px 0px 0px;
     font-family: "Segoe Script";
