@@ -27,4 +27,10 @@
     $("#atomera").click(()=>{
         window.location.href = "atomera/atomera.html";
     });
+    $("#oigames").click(()=>{
+        window.location.href = "OIGames";
+    });
+    $("#englearner").click(()=>{
+        window.location.href = "Englearner";
+    });
 }))();
