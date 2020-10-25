@@ -56,9 +56,9 @@
         { "selector": "#mm", "text": ["这里有游戏里出现的音乐！音乐由LAWArthur和OX作曲，都很好听哦！"] },
         { "selector": "#heartbeat", "text": ["这是一个简单的逃亡小游戏！刚开始的时候不温不火，但你能坚持十分钟吗？"] },
         { "selector": "#atomera", "text": ["这个虽然已经鸽了，但它的游戏性很好地被Regret继承了哦！"] },
-        { "selector": "#regret", "text": ["《憾事》是一款剧情游戏，已经进入Beta开发了！", "虽然《憾事》是有生之年系列，也要抱有期待嘛！" ] },
-
-        { "selector": ".waifu #live2d", "text": ["诶诶诶？怎么了嘛"] }
+        { "selector": "#regret", "text": ["《憾事》是englearner一款剧情游戏，已经进入Beta开发了！", "虽然《憾事》是有生之年系列，也要抱有期待嘛！" ] },
+        { "selector": "#oigames", "text": ["是OIer的，进！^^" ] },
+        { "selector": "eng'learner", "text": ["还在为背不出单词而苦恼吗？"] }
     ],
     "click": [
         {
